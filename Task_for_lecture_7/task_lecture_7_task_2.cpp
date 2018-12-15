@@ -1,6 +1,5 @@
 #include <iostream>
 #include <omp.h>
-//#include <conio.h>
 
 long long num = 100000000;
 double step;
@@ -30,6 +29,5 @@ double par(void)
 int main()
 {
 	printf("time: %f sec.\n\n", par());
-	//getch();
 	return 0;
 }
